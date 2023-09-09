@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Link to the manifest format reference: https://gerrit.googlesource.com/git-repo/+/HEAD/docs/manifest-format.md -->
+  <default remote="yocto" revision="honister"/>
+
+  <remote name="yocto" fetch="git://git.yoctoproject.org" />
+  <remote name="oe" fetch="git://git.openembedded.org" />
+  <remote name="dev" fetch="https://github.com/systemd-learning" />
+
+  <project name="poky" path="sources/poky" revision="honister" remote="yocto" clone-depth="1" />
+  <project name="meta-arm" path="sources/meta-arm" revision="honister"  remote="yocto" clone-depth="1" />
+  <project name="meta-openembedded" path="sources/meta-openembedded" revision="honister"  remote="oe" clone-depth="1" />
+  <project name="meta-security" path="sources/meta-security" revision="honister"  remote="yocto" clone-depth="1" />
+
+  <project name="linux-stable-lite" path="sources/linux" revision="linux-5.10.y"  remote="dev" clone-depth="1" />
+  <project name="systemd" path="sources/systemd" revision="main"  remote="dev" clone-depth="1" />
+</manifest>
