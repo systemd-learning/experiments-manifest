@@ -11,6 +11,7 @@
   <project name="meta-arm" path="sources/meta-arm" revision="honister"  remote="yocto" clone-depth="1" />
   <project name="meta-openembedded" path="sources/meta-openembedded" revision="honister"  remote="oe" clone-depth="1" />
   <project name="meta-security" path="sources/meta-security" revision="honister"  remote="yocto" clone-depth="1" />
+  <project name="meta-demo-01" path="sources/demo/meta-demo-01" revision="main"  remote="dev" clone-depth="1" />
 
   <project name="linux-stable-lite" path="sources/linux" revision="linux-5.10.y"  remote="dev" clone-depth="1" />
   <project name="systemd" path="sources/systemd" revision="main"  remote="dev" clone-depth="1" />
