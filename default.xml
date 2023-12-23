@@ -13,6 +13,6 @@
   <project name="meta-security" path="sources/meta-security" revision="honister"  remote="yocto" clone-depth="1" />
   
   <project name="experiments-demo" path="sources/demo" revision="main"  remote="dev" clone-depth="1" />
-  <project name="linux-stable-lite" path="sources/linux" revision="linux-5.10.y"  remote="dev" clone-depth="1" />
+  <project name="linux-5.10.y" path="sources/linux" revision="5.10.59"  remote="dev" clone-depth="1" />
   <project name="systemd" path="sources/systemd" revision="main"  remote="dev" clone-depth="1" />
 </manifest>
